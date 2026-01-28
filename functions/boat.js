@@ -1,5 +1,5 @@
 export async function onRequest() {
-  const url = "https://followme.mv/api/v5/my/qDIM8KN1yfjc1Rs/17753/";
+  const url = "https://followme.mv/api/v5/my/3/";
 
   try {
     const r = await fetch(url, {
@@ -56,3 +56,4 @@ export async function onRequest() {
     );
   }
 }
+
